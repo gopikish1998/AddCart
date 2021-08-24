@@ -4,7 +4,7 @@ function Card(props) {
     return (
         <div className="col-lg-4">
                 <div className="card">
-                  <img src="http://placehold.it/200x100" className="card-img-top" alt="..." />
+                  <img src="https://fakeimg.pl/200x100/" className="card-img-top" alt="product_image" />
                   <div className="card-body">
                     <h5 className="card-title">{props.data.title}</h5>
                     <p className="card-text">{props.data.description}</p>
